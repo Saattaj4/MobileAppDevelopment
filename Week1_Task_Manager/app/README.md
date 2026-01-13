@@ -2,6 +2,10 @@
 
 Yksinkertainen Android-sovellus.
 
+Tiedostot löytyvät:
+Week1_Task_Manager/app/src/main/java/com/example/viikko1
+
+
 Videolinkki: https://youtube.com/shorts/dgwWOnj4Vfs
 
 
