@@ -1,0 +1,17 @@
+# ===== Android / Gradle =====
+**/build/
+**/.gradle/
+
+# ===== Android Studio / IntelliJ =====
+**/.idea/
+**/*.iml
+
+# ===== Local machine config =====
+**/local.properties
+
+# ===== Linux / Fedora =====
+.directory
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
