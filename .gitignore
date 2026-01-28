@@ -1,13 +1,19 @@
 # ===== Android / Gradle =====
 **/build/
 **/.gradle/
+**/out/
 
 # ===== Android Studio / IntelliJ =====
 **/.idea/
 **/*.iml
+**/*.ipr
+**/*.iws
 
 # ===== Local machine config =====
 **/local.properties
+
+# ===== Logs =====
+**/*.log
 
 # ===== Linux / Fedora =====
 .directory
