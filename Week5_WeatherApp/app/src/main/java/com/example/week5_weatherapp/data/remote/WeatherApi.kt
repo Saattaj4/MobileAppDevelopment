@@ -5,7 +5,7 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 interface WeatherApi {
-    // GET https://api.openweathermap.org/data/2.5/weather?q=Helsinki&appid=YOUR_KEY&units=metric&lang=fi
+
     @GET("weather")
     suspend fun getWeather(
         @Query("q") city: String,
@@ -14,7 +14,6 @@ interface WeatherApi {
         @Query("lang") lang: String = "fi"
     ): WeatherResponse
 
-    // GET https://api.openweathermap.org/data/2.5/weather?lat=60.17&lon=24.94&appid=YOUR_KEY&units=metric&lang=fi
     @GET("weather")
     suspend fun getWeatherByCoordinates(
         @Query("lat") latitude: Double,
