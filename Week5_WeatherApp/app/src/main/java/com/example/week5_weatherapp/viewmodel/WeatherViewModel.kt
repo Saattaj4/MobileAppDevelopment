@@ -21,7 +21,7 @@ class WeatherViewModel : ViewModel() {
     private val _weatherState = MutableStateFlow<Result<WeatherResponse>>(Result.Loading)
     val weatherState: StateFlow<Result<WeatherResponse>> = _weatherState.asStateFlow()
 
-    private val _searchQuery = MutableStateFlow("Helsinki")
+    private val _searchQuery = MutableStateFlow("Rovaniemi")
     val searchQuery: StateFlow<String> = _searchQuery.asStateFlow()
 
     fun onSearchQueryChange(query: String) {
